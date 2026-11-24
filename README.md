@@ -27,9 +27,11 @@ Benefits:
 
 ## Proposed Solution
 1. Detailed explanation of the proposed solution
+
 AgriShare is a collaborative agriculture trading platform where individual small and marginal farmers form digital groups (virtual FPO-style clusters) by crop, region or season. Instead of selling alone to local middlemen, the group negotiates as one unit with bulk buyers (retailers, restaurants, food processors, institutions, exporters).
 
 2. How it addresses the problem
+
 Many middlemen take large margins: Direct farmer-group to buyer deals remove commission agents 
 Individual farmers have weak bargaining power: Collective volume and a group floor price give negotiating strength 
 Farmers lack price information: Live price discovery and AI price suggestions 
@@ -38,10 +40,12 @@ Delayed or uncertain payments: Escrow-based direct bank transfer
 Consumers pay inflated prices: Shorter supply chain lowers the final price 
 
 3. Innovation and uniqueness of the solution
+
 AgriShare is built around group selling, which is its main difference from ordinary agri marketplaces. Farmers form crop-based groups and vote on a floor price, supported by AI price suggestions based on mandi trends and input costs. Bulk buyers can book produce before harvest, which reduces unsold stock and wastage. Payments are held in escrow and released directly to each farmer's bank account in proportion to the quantity they supplied. Pooled transport with AI route optimization lowers logistics costs, and voice support, regional languages and an SMS/WhatsApp fallback make the platform easy for farmers with low digital literacy. KYC, quality grading and ratings for both farmers and buyers build trust across the whole chain.
 
 ## Technical Approach
 1. Technologies to be used 
+
 Mobile app (farmers): Flutter or React Native, voice input, offline-first
 Web portal (buyers/admin): React.js, Tailwind CSS
 Backend: Node.js (Express) or Django REST
@@ -56,16 +60,19 @@ Security: JWT auth, OTP login, KYC verification, HTTPS
 Hosting: AWS / Azure / GCP
 
 2. Methodology and process for implementation 
+
 ![alt text](Image.png)
 
 ## Feasibility and Viability
 Analysis of the feasibility of the idea
+
 1. Uses mature, proven technologies (mobile apps, UPI, maps, ML forecasting).
 2. India has a large FPO ecosystem, eNAM and government schemes that AgriShare can plug into.
 3. Revenue from a small transaction fee (1–2%) charged to buyers, logistics margin, and premium analytics. Farmers use it free.
 4. Smartphone and UPI penetration in rural India is growing, and group selling matches how farmers already cooperate.
 
 Potential challenges and risks
+
 1. Low digital literacy among farmers
 2. Poor internet connectivity in rural areas
 3. Trust issues between farmers, groups and buyers
@@ -75,6 +82,7 @@ Potential challenges and risks
 7. Resistance from existing middlemen and traders
 
 Strategies for overcoming these challenges
+
 1. Voice-based, regional-language, icon-driven UI, and training through FPOs, Krishi Vigyan Kendras and local agents ("Agri-mitras")
 2. Offline-first app with SMS/WhatsApp fallback
 3. Escrow payments, KYC verification and a rating system to build trust
@@ -85,12 +93,14 @@ Strategies for overcoming these challenges
 
 ## Impact and Benefits
 Potential impact on the target audience:
+
 1. Higher realized prices, assured floor price, faster and transparent payments, better bargaining power.
 2. Reliable supply, quality assurance, lower procurement cost, traceability.
 3. Lower prices and fresher produce through a shorter supply chain.
 4. Better data for planning, price monitoring and policy.
 
 Benefits of the solution:
+
 1. Farmers earn more, consumers pay less, and middleman margins shrink.
 2. Strengthens farmer collectives, financial inclusion through direct bank payments, and rural empowerment.
 3. Less food wastage and optimized routes mean lower fuel use and emissions. Demand forecasting reduces overproduction.
