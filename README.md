@@ -26,38 +26,38 @@ Benefits:
 • Reduced supply chain inefficiencies.
 
 ## Proposed Solution
-1. Detailed explanation of the proposed solution
+Detailed explanation of the proposed solution
 
 AgriShare is a collaborative agriculture trading platform where individual small and marginal farmers form digital groups (virtual FPO-style clusters) by crop, region or season. Instead of selling alone to local middlemen, the group negotiates as one unit with bulk buyers (retailers, restaurants, food processors, institutions, exporters).
 
-2. How it addresses the problem
+How it addresses the problem
 
-Many middlemen take large margins: Direct farmer-group to buyer deals remove commission agents 
-Individual farmers have weak bargaining power: Collective volume and a group floor price give negotiating strength 
-Farmers lack price information: Live price discovery and AI price suggestions 
-High logistics cost, wastage: Pooled transport, route optimization, storage tie-ups 
-Delayed or uncertain payments: Escrow-based direct bank transfer 
-Consumers pay inflated prices: Shorter supply chain lowers the final price 
+1. Many middlemen take large margins: Direct farmer-group to buyer deals remove commission agents 
+2. Individual farmers have weak bargaining power: Collective volume and a group floor price give negotiating strength 
+3. Farmers lack price information: Live price discovery and AI price suggestions 
+4. High logistics cost, wastage: Pooled transport, route optimization, storage tie-ups 
+5. Delayed or uncertain payments: Escrow-based direct bank transfer 
+6. Consumers pay inflated prices: Shorter supply chain lowers the final price 
 
-3. Innovation and uniqueness of the solution
+Innovation and uniqueness of the solution
 
 AgriShare is built around group selling, which is its main difference from ordinary agri marketplaces. Farmers form crop-based groups and vote on a floor price, supported by AI price suggestions based on mandi trends and input costs. Bulk buyers can book produce before harvest, which reduces unsold stock and wastage. Payments are held in escrow and released directly to each farmer's bank account in proportion to the quantity they supplied. Pooled transport with AI route optimization lowers logistics costs, and voice support, regional languages and an SMS/WhatsApp fallback make the platform easy for farmers with low digital literacy. KYC, quality grading and ratings for both farmers and buyers build trust across the whole chain.
 
 ## Technical Approach
-1. Technologies to be used 
+Technologies to be used 
 
-Mobile app (farmers): Flutter or React Native, voice input, offline-first
-Web portal (buyers/admin): React.js, Tailwind CSS
-Backend: Node.js (Express) or Django REST
-Database: PostgreSQL (+ PostGIS for location), Redis (cache)
-AI/ML: Python with Prophet, LSTM and XGBoost for demand and price forecasting
-Route optimization: Google OR-Tools (vehicle routing), OpenStreetMap / Google Maps API
-Payments: UPI / Razorpay with escrow flow
-Notifications: Firebase, SMS, WhatsApp Business API
-Language: Bhashini / Google Translate API for regional languages
-Data sources: Agmarknet, eNAM, IMD weather data
-Security: JWT auth, OTP login, KYC verification, HTTPS
-Hosting: AWS / Azure / GCP
+1. Mobile app (farmers): Flutter or React Native, voice input, offline-first
+2. Web portal (buyers/admin): React.js, Tailwind CSS
+3. Backend: Node.js (Express) or Django REST
+4. Database: PostgreSQL (+ PostGIS for location), Redis (cache)
+5. AI/ML: Python with Prophet, LSTM and XGBoost for demand and price forecasting
+6. Route optimization: Google OR-Tools (vehicle routing), OpenStreetMap / Google Maps API
+7. Payments: UPI / Razorpay with escrow flow
+8. Notifications: Firebase, SMS, WhatsApp Business API
+9. Language: Bhashini / Google Translate API for regional languages
+10. Data sources: Agmarknet, eNAM, IMD weather data
+11. Security: JWT auth, OTP login, KYC verification, HTTPS
+12. Hosting: AWS / Azure / GCP
 
 2. Methodology and process for implementation 
 
