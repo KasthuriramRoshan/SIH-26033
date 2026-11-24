@@ -28,7 +28,7 @@ Benefits:
 ## Proposed Solution
 Detailed explanation of the proposed solution
 
-AgriShare is a collaborative agriculture trading platform where individual small and marginal farmers form digital groups (virtual FPO-style clusters) by crop, region or season. Instead of selling alone to local middlemen, the group negotiates as one unit with bulk buyers (retailers, restaurants, food processors, institutions, exporters).
+<b>AgriShare</b> is a collaborative agriculture trading platform where individual small and marginal farmers form digital groups (virtual FPO-style clusters) by crop, region or season. Instead of selling alone to local middlemen, the group negotiates as one unit with bulk buyers (retailers, restaurants, food processors, institutions, exporters).
 
 How it addresses the problem
 
@@ -59,7 +59,7 @@ Technologies to be used
 11. Security: JWT auth, OTP login, KYC verification, HTTPS
 12. Hosting: AWS / Azure / GCP
 
-2. Methodology and process for implementation 
+Methodology and process for implementation 
 
 ![alt text](Image.png)
 
